@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" ng-app="phonecatApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Google Phone Gallery</title>
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="components/phone/phone-animation.css">
+    <link rel="stylesheet" href="states/phones-detail/phone-detail.css">
+    <link rel="stylesheet" href="states/phones-list/phone-list.css">
+
+    <script src="vendor/jquery/jquery.js"></script>
+    <script src="vendor/angular/angular.js"></script>
+    <script src="vendor/angular-animate/angular-animate.js"></script>
+    <script src="vendor/angular-route/angular-route.js"></script>
+    <script src="vendor/angular-resource/angular-resource.js"></script>
+    <script src="app.js"></script>
+    <script src="config.js"></script>
+    <script src="components/utils/app.js"></script>
+    <script src="components/phone/app.js"></script>
+    <script src="components/phone/phone-animation.js"></script>
+    <script src="components/phone/phone-model.js"></script>
+    <script src="components/utils/checkmark-filter.js"></script>
+    <script src="states/phones-detail/app.js"></script>
+    <script src="states/phones-detail/config.js"></script>
+    <script src="states/phones-detail/phone-detail-controller.js"></script>
+    <script src="states/phones-list/app.js"></script>
+    <script src="states/phones-list/config.js"></script>
+    <script src="states/phones-list/phone-list-controller.js"></script>
+  </head>
+
+  <body>
+    <div class="view-container">
+      <div ng-view class="view-frame"></div>
+    </div>
+  </body>
+</html>
