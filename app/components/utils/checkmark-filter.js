@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app.components.utils')
+angular.module('components.utils')
 
 .filter('checkmark', function() {
   return function(input) {

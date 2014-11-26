@@ -1,6 +1,6 @@
 angular.module('phonecatApp', [
-  'app.components.utils',
-  'app.components.phone',
-  'app.states.phones.list',
-  'app.states.phones.detail'
+  'components.utils',
+  'components.phone',
+  'states.phones.list',
+  'states.phones.detail'
 ]);

@@ -1,1 +1,1 @@
-angular.module('app.components.phone', ['ngResource', 'ngAnimate']);
+angular.module('components.phone', ['ngResource', 'ngAnimate']);

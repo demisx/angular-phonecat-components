@@ -1,1 +1,1 @@
-angular.module('app.components.utils', []);
+angular.module('components.utils', []);

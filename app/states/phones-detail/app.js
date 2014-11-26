@@ -1,1 +1,1 @@
-angular.module('app.states.phones.detail', ['ngRoute']);
+angular.module('states.phones.detail', ['ngRoute']);

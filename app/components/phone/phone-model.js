@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app.components.phone')
+angular.module('components.phone')
 
 .factory('Phone', ['$resource',
   function($resource){

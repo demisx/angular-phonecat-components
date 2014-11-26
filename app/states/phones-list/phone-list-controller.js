@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app.states.phones.list')
+angular.module('states.phones.list')
 
 .controller('PhoneListCtrl', ['$scope', 'Phone',
   function($scope, Phone) {

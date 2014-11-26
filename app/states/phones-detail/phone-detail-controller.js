@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app.states.phones.detail')
+angular.module('states.phones.detail')
 
 .controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'Phone',
   function($scope, $routeParams, Phone) {

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app.states.phones.list')
+angular.module('states.phones.list')
 
 .config(['$routeProvider',
   function($routeProvider) {
