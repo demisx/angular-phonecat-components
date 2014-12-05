@@ -6,8 +6,9 @@ components based organization structure.
 
 # Application state diagram
 ```
-        | phone |
-          /  \
-         /    \
-    |list|    |detail|
+          |phone|
+           /  \
+          /    \
+         /      \
+      |list|  |detail|
 ```
