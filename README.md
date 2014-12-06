@@ -13,8 +13,8 @@ There are only 3 states with the first one being [abstract](https://github.com/a
 
 ```js
 1. 'phones'        // abstract state, can't be transitioned to
-1. 'phones.list'   // UI shows a list of all phones
-1. 'phones.detal'  // UI shows detail info on a selected phone
+2. 'phones.list'   // UI shows a list of all phones
+3. 'phones.detal'  // UI shows detail info on a selected phone
 ```
 
 ```js
