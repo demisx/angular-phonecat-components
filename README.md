@@ -11,9 +11,11 @@ leveraging [components-based organization structure](http://demisx.github.io/ang
 # Application state diagram
 There are only 3 states with the first one being [abstract](https://github.com/angular-ui/ui-router/wiki/Nested-States-%26-Nested-Views#abstract-states):
 
-1. 'phones'
-1. 'phones.list'
-1. 'phones.detal'
+```js
+1. `'phones'`       // abstract state, can't be transitioned to
+1. `'phones.list'`  // UI shows a list of all phones
+1. 'phones.detal'   // UI shows detail info on a selected phone
+```
 
 ```js
          |phones| // <-- abstract state that loads default layout
