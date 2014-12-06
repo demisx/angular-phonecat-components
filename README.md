@@ -8,7 +8,7 @@ leveraging [components-based organization structure](http://demisx.github.io/ang
 * states (via Angular UI Router)
 
 
-# Application state diagram
+## Application state diagram
 
 
 ```js
@@ -19,6 +19,19 @@ leveraging [components-based organization structure](http://demisx.github.io/ang
       |list|  |detail| // <-- concete states that plug in their own content into the default layout
 ```
 
+## Directory structure
+
+```bash
+
+[app-name]/ #
+  |  
+  |__app/
+  |__bower_components/
+  |__config/   # app related configuration
+  |__scripts/  # shell scripts
+  |__test-e2e/ # e2e tests
+
+```
 
 ```bash
 # Start application
