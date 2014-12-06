@@ -18,3 +18,15 @@ leveraging [components-based organization structure](http://demisx.github.io/ang
          /      \
       |list|  |detail| // <-- concete states that plug in their own content into the default layout
 ```
+
+
+```bash
+# Start application
+$ npm start
+
+# Run unit tests
+$ npm test
+
+# Run e2e (end-to-end) tests
+$ npm run protractor
+```

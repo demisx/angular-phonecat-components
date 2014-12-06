@@ -8,11 +8,11 @@ module.exports = function(config){
     browsers : ['Chrome'],
 
     files : [
-      'app/vendor/angular/angular.js',
-      'app/vendor/angular-route/angular-route.js',
-      'app/vendor/angular-resource/angular-resource.js',
-      'app/vendor/angular-animate/angular-animate.js',
-      'app/vendor/angular-mocks/angular-mocks.js',
+      'bower_components/angular/angular.js',
+      'bower_components/ui-router/release/angular-ui-router.js',
+      'bower_components/angular-resource/angular-resource.js',
+      'bower_components/angular-animate/angular-animate.js',
+      'bower_components/angular-mocks/angular-mocks.js',
       'app/**/app.js',
       'app/components/**/*.js',
       'app/states/**/*.js'

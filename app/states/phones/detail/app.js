@@ -1,0 +1,1 @@
+angular.module('states.phones.detail', ['ui.router']);

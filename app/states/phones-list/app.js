@@ -1,1 +1,0 @@
-angular.module('states.phones.list', ['ngRoute']);
