@@ -12,9 +12,9 @@ leveraging [components-based organization structure](http://demisx.github.io/ang
 There are only 3 states with the first one being [abstract](https://github.com/angular-ui/ui-router/wiki/Nested-States-%26-Nested-Views#abstract-states):
 
 ```js
-1. `'phones'`       // abstract state, can't be transitioned to
-1. `'phones.list'`  // UI shows a list of all phones
-1. 'phones.detal'   // UI shows detail info on a selected phone
+1. 'phones'        // abstract state, can't be transitioned to
+1. 'phones.list'   // UI shows a list of all phones
+1. 'phones.detal'  // UI shows detail info on a selected phone
 ```
 
 ```js
