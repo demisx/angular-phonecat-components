@@ -1,5 +1,4 @@
-AngularJS Phone Catalog Tutorial Application (Component-based)
-=================================================================
+# AngularJS Phone Catalog Tutorial Application (Component-based)
 
 This is a rewrite of the [original phonecatApp](https://github.com/angular/angular-phonecat) tutorial app 
 leveraging [components-based organization structure](http://demisx.github.io/angularjs/component-feature-based-organization/2014/12/02/angular-1-component-organization-1.html). The main 2 foundation blocks of the new organization are:
@@ -8,7 +7,7 @@ leveraging [components-based organization structure](http://demisx.github.io/ang
 * states (via Angular UI Router)
 
 
-# Application state diagram
+## Application states
 There are only 3 states with the first one being [abstract](https://github.com/angular-ui/ui-router/wiki/Nested-States-%26-Nested-Views#abstract-states):
 
 ```js
@@ -25,6 +24,7 @@ There are only 3 states with the first one being [abstract](https://github.com/a
       |list|  |detail| // <-- concete states that plug in their own content into the default layout
 ```
 
+## Usage
 
 ```bash
 # Start application
