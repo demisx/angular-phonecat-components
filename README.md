@@ -1,7 +1,7 @@
-angular-phonecat-components
-===========================
+AngularJS Phone Catalog Tutorial Application (Component-based)
+=================================================================
 
-This is a rewrite of the [original phonecatApp app](https://github.com/angular/angular-phonecat) tutorial app 
+This is a rewrite of the [original phonecatApp](https://github.com/angular/angular-phonecat) tutorial app 
 leveraging [components-based organization structure](http://demisx.github.io/angularjs/component-feature-based-organization/2014/12/02/angular-1-component-organization-1.html). The main 2 foundation blocks of the new organization are:
 
 * components (stateless)
@@ -9,7 +9,11 @@ leveraging [components-based organization structure](http://demisx.github.io/ang
 
 
 # Application state diagram
+There are only 3 states with the first one being [abstract](https://github.com/angular-ui/ui-router/wiki/Nested-States-%26-Nested-Views#abstract-states):
 
+1. 'phones'
+1. 'phones.list'
+1. 'phones.detal'
 
 ```js
          |phones| // <-- abstract state that loads default layout
