@@ -3,12 +3,7 @@
     <div class="col-md-2">
       <!--Sidebar content-->
 
-      Search: <input ng-model="query">
-      Sort by:
-      <select ng-model="orderProp">
-        <option value="name">Alphabetical</option>
-        <option value="age">Newest</option>
-      </select>
+      <search-filter query="query" order-by="orderProp"></search-filter>
 
     </div>
     <div class="col-md-10">
