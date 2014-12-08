@@ -11,12 +11,12 @@ leveraging [components-based organization structure](http://demisx.github.io/ang
 The app has only one feature component called `phone` and one special component called `utils` where global feature agnostic helper services are placed. 
 
 ## UI states
-There are only 3 states with the first one being [abstract](https://github.com/angular-ui/ui-router/wiki/Nested-States-%26-Nested-Views#abstract-states):
+The UI has only 3 states with the first one being [abstract](https://github.com/angular-ui/ui-router/wiki/Nested-States-%26-Nested-Views#abstract-states):
 
 ```js
 1. 'phones'        // abstract state, can't be transitioned to
 2. 'phones.list'   // UI shows a list of all phones
-3. 'phones.detail'  // UI shows detail info on a selected phone
+3. 'phones.detail'  // UI shows detail info on the selected phone
 
          |phones| // <-- abstract state that loads default layout
            /  \
