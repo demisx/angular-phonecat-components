@@ -17,19 +17,16 @@ There are only 3 states with the first one being [abstract](https://github.com/a
 1. 'phones'        // abstract state, can't be transitioned to
 2. 'phones.list'   // UI shows a list of all phones
 3. 'phones.detail'  // UI shows detail info on a selected phone
-```
 
-## Layouts
-The app has just one simple layout with no header, footer or any other UI container, besides just main content area. We describe this layout in `layouts/default.html`. 
-
-
-```js
          |phones| // <-- abstract state that loads default layout
            /  \
           /    \
          /      \
       |list|  |detail| // <-- concete states that plug in their own content into the default layout
 ```
+
+## Layouts
+The app has just one simple layout with no header, footer or any other UI container, besides just main content area. We describe this layout in `layouts/default.html`. 
 
 ## Directory structure
 
