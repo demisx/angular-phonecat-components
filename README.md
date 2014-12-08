@@ -1,13 +1,16 @@
 # AngularJS Phone Catalog Tutorial Application (Component-based)
 
 This is a rewrite of the [original phonecatApp](https://github.com/angular/angular-phonecat) tutorial app 
-leveraging [components-based organization structure](http://demisx.github.io/angularjs/component-feature-based-organization/2014/12/02/angular-1-component-organization-1.html). The main 2 foundation blocks of the new organization are:
+leveraging [components-based organization structure](http://demisx.github.io/angularjs/component-feature-based-organization/2014/12/02/angular-1-component-organization-1.html). The 3 foundation blocks of the new organization are:
 
-1. components (stateless)
-1. states (via Angular UI Router)
+1. Feature components (stateless)
+1. UI states (via [AngularUI Router](https://github.com/angular-ui/ui-router))
+1. UI layout(s)
 
+## Feature components
+The app has only one feature component called `phone` and one special component called `utils` where global feature agnostic helper services are placed. 
 
-## Application states
+## UI states
 There are only 3 states with the first one being [abstract](https://github.com/angular-ui/ui-router/wiki/Nested-States-%26-Nested-Views#abstract-states):
 
 ```js
@@ -15,6 +18,10 @@ There are only 3 states with the first one being [abstract](https://github.com/a
 2. 'phones.list'   // UI shows a list of all phones
 3. 'phones.detal'  // UI shows detail info on a selected phone
 ```
+
+## Layouts
+The app has just one simple layout with no header, footer or any other UI container, besides just main content area. We describe this layout in `layouts/default.html`. 
+
 
 ```js
          |phones| // <-- abstract state that loads default layout
