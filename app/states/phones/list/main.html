@@ -12,7 +12,12 @@
       <ul class="phones">
         <li ng-repeat="phone in phones | filter:query | orderBy:orderProp"
             class="thumbnail phone-listing">
-          <phone-item name="{{phone.name}}" description="{{phone.snippet}}" href="#/phones/{{phone.id}}" img-src="{{phone.imageUrl}}"></phone-item>
+          <phone-item
+            name="{{phone.name}}"
+            description="{{phone.snippet}}"
+            href="#/phones/{{phone.id}}"
+            img-src="{{phone.imageUrl}}"
+          ></phone-item>
         </li>
       </ul>
     </div>
